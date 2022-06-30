@@ -1,0 +1,19 @@
+.link{
+    text-decoration: none;
+    font-weight:600;
+    color:#957AE3;
+}
+.link:hover{
+    color:#b09fe4;
+}
+.logo {
+    background-color: rgb(235, 235, 235);
+    padding:10px;
+    border-radius: 10px;
+    color:#957AE3;
+    font-weight:bold
+}
+.icone{
+    font-size: 20px;
+    color:#1d1e1f;
+}
