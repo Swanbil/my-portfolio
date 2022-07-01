@@ -1,0 +1,33 @@
+.about{
+    margin-top: 50px;
+    font-family: Andale Mono, monospace;
+}
+.all-about{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:20px;
+    background-color: 		rgb(245,245,245);
+    border-radius: 25px;
+    color: rgb(38, 38, 38);
+    margin-top:20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.left-about{
+    flex:2;
+}
+.right-about{
+    flex:7;
+}
+.profile-img{
+    height:150px;
+    width:150px;
+    border-radius: 25%;
+}
+
+@media (max-width: 995px) {
+    .all-about {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
