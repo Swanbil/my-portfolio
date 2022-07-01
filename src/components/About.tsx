@@ -3,8 +3,8 @@ import "../style/About.css";
 
 const About: FC<any> = () => {
     return (
-        <div className="container about" id="about">
-            <h4 style={{color:"#957AE3", fontWeight:"bold"}}>👋 About</h4>
+        <div className="container about" >
+            <h4 style={{color:"#957AE3", fontWeight:"bold"}} id="about">👋 About</h4>
             <div className="all-about">
                 <div className="left-about">
                     <img className="profile-img" src="https://i.pinimg.com/originals/6c/bb/5d/6cbb5d0873b79fd92158e3f2b038fa11.jpg" alt="profile-image"/>

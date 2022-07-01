@@ -14,7 +14,7 @@ const NavBar: FC<any> = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#"><span  className="link">Home</span></Nav.Link>
-                        <Nav.Link href="#about"><span  className="link">About</span></Nav.Link>
+                        <Nav.Link href="#about"><span className="link">About</span></Nav.Link>
                         <Nav.Link href="#skills"><span  className="link">Skills</span></Nav.Link>
                         <Nav.Link href="#projects"><span className="link">Projects</span></Nav.Link>
                     </Nav>
