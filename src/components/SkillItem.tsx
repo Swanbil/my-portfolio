@@ -14,7 +14,7 @@ const SkillItem: FC<any> = ({ skill }: LanguageProps) => {
             <div className="skill-right">
                 <div className="skill-title">{skill.name}</div>
                 <div className="skill-category">{skill.category}</div>
-                <div className="skill-rate">{[...Array(skill.rate)].map((e, i) => <AiFillStar key={i} style={{color:"#FDE835", marginRight:"2px", fontSize:"10px"}}/>)}</div>
+                <div className="skill-rate">{[...Array(skill.rate)].map((e, i) => <AiFillStar key={i} style={{color:"#FDE835", marginRight:"2px", fontSize:"12px"}}/>)}</div>
             </div>
 
         </div>
