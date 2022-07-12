@@ -1,0 +1,31 @@
+[
+    {
+        "id": 0,
+        "title": "Deezer-Stats",
+        "description": "Deezer-Stats is a website where you can consult your current favorites artists, songs and albums listening on Deezer by rank. The website is dealing the Deezer api.",
+        "languages": ["React", "NodeJs"],
+        "link":"https://deezer-stats.herokuapp.com/",
+        "images": ["https://i.ytimg.com/vi/RE5eJolQtQQ/maxresdefault.jpg","https://pbs.twimg.com/media/EXwUfq_XgAIyrIe.jpg:large","https://actugeekgaming.com/wp-content/uploads/2017/01/Ace-luffy-kid-spin-off-ace.jpg"]
+    },
+    {
+        "id": 1,
+        "title": "Efrei'vote",
+        "description": "Efrei'vote is a web plateform which allows users to vote for the current political election. It's a school project realized by a team of 4 students.",
+        "languages": ["VueJs", "NodeJs", "Postgresql"],
+        "images": ["https://i.ytimg.com/vi/RE5eJolQtQQ/maxresdefault.jpg","https://pbs.twimg.com/media/EXwUfq_XgAIyrIe.jpg:large","https://actugeekgaming.com/wp-content/uploads/2017/01/Ace-luffy-kid-spin-off-ace.jpg"]
+    },
+    {
+        "id": 2,
+        "title": "Zweb",
+        "description": "Zweb is my first web development project. This is a website thought for old people where families can upload videos and photos for their grandparents. The medias are automatically display as a slideshow if the user category account is an old person. They just have to go on the website to see the latest news of their families !",
+        "languages": ["Php", "Javascript", "MySQL", "Html/Css"],
+        "images": ["https://i.ytimg.com/vi/RE5eJolQtQQ/maxresdefault.jpg","https://pbs.twimg.com/media/EXwUfq_XgAIyrIe.jpg:large","https://actugeekgaming.com/wp-content/uploads/2017/01/Ace-luffy-kid-spin-off-ace.jpg"]
+    },
+    {
+        "id": 3,
+        "title": "MangaZ",
+        "description": "MangaZ is an applciation where you can read mangas. There is a various catalogue that listed many types of mangas.",
+        "languages": ["React Native", "NodeJs"],
+        "images": ["https://i.ytimg.com/vi/RE5eJolQtQQ/maxresdefault.jpg","https://pbs.twimg.com/media/EXwUfq_XgAIyrIe.jpg:large","https://actugeekgaming.com/wp-content/uploads/2017/01/Ace-luffy-kid-spin-off-ace.jpg"]
+    }
+]

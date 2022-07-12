@@ -1,34 +1,38 @@
-.about{
+.about {
     margin-top: 50px;
     font-family: Andale Mono, monospace;
 }
-.all-about{
-    display:flex;
+
+.all-about {
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding:20px;
-    background-color: 		rgb(248,248,248);
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
     border-radius: 25px;
     color: rgb(38, 38, 38);
-    margin-top:20px;
+    margin-top: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-left:8px solid #957AE3
+    border-left: 8px solid #957AE3
 }
-.left-about{
-    flex:2;
+
+.left-about {
+    flex: 2;
 }
-.right-about{
-    flex:7;
+
+.right-about {
+    flex: 7;
 }
-.profile-img{
-    height:150px;
-    width:150px;
+
+.profile-img {
+    height: 150px;
+    width: 150px;
     border-radius: 25%;
 }
 
 @media (max-width: 995px) {
     .all-about {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  }
+}

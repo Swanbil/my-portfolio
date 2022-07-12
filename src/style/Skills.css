@@ -44,7 +44,7 @@
     border-radius: 15px;
 }
 .category:hover{
-    background-color: #ae9ce5;
+    background-color: #bbbbbb;
 }
 
 @media (max-width: 550px) {

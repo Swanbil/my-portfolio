@@ -1,0 +1,42 @@
+.card-item {
+    width: 34rem;
+    margin-top: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12px !important;
+}
+
+.card-title {
+    font-weight: bold !important;
+    color: #957AE3
+}
+
+.carousel-inner {
+    border-radius: 12px;
+}
+
+.card-description {
+    font-style: italic;
+    color: rgb(182, 182, 182);
+    font-size: 13px
+}
+
+.card-link {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.badge {
+    background-color: #957AE3;
+}
+
+@media (max-width: 765px) {
+    .card-item {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .card-item {
+        width: 18rem;
+    }
+}
