@@ -4,7 +4,10 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 12px !important;
 }
-
+.img-slide{
+    width:34rem;
+    height:300px;
+}
 .card-title {
     font-weight: bold !important;
     color: #957AE3
@@ -33,10 +36,20 @@
     .card-item {
         width: 28rem;
     }
+    .img-slide{
+        object-fit: scale-down;
+        width: 28rem;
+        
+    }
 }
 
 @media (max-width: 550px) {
     .card-item {
         width: 18rem;
+    }
+    .img-slide{
+        object-fit: scale-down;
+        width: 18rem;
+        
     }
 }
