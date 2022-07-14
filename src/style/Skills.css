@@ -46,7 +46,12 @@
 .category:hover{
     background-color: #bbbbbb;
 }
-
+@media (max-width: 760px) {
+    .all-skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 550px) {
     .category {
         font-size: 12px;
@@ -58,4 +63,12 @@
         width:30px;
         height:30px;
     }
+    
+}
+@media (max-width: 300px) {
+    .all-skills{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }

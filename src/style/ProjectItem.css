@@ -60,3 +60,14 @@
         
     }
 }
+
+@media (max-width: 300px) {
+    .card-item {
+        width: 10rem;
+    }
+    .img-slide{
+        width: 10rem;
+        
+    }
+    
+}

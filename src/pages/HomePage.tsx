@@ -3,15 +3,18 @@ import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import Footer from '../components/Footer';
+
 const Home: FC<any> = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            <NavBar/>
             <div className="container-fluid">
-                <About></About>
-                <Skills></Skills>
-                <Projects></Projects>
+                <About/>
+                <Skills/>
+                <Projects />
             </div>
+            <Footer/>
 
         </div>
     )

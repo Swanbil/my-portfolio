@@ -1,0 +1,26 @@
+.footer{
+    height:200px;
+    width:100%;
+    margin-top:50px;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link-footer{
+    color:rgb(59, 59, 59);
+    border-bottom: 2px solid #957AE3;
+}
+.copyright{
+    margin-top: 20px;
+    font-size: 13px;
+    font-style:italic;
+}
