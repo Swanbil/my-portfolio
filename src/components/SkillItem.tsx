@@ -6,6 +6,7 @@ type LanguageProps = {
     skill: Language
 }
 const SkillItem: FC<any> = ({ skill }: LanguageProps) => {
+    
     return (
         <div className="skill-item">
             <div className="skill-left">
