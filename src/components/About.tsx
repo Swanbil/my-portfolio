@@ -15,7 +15,7 @@ const About: FC<any> = () => {
                         I'am interested in computer science for 5 years and most particulary in web development.<br />
                         I have been developing personal projects as school projects for 4 years now.<br />
                         About my other hobbies, I'm practicing soccer for 11 years and I'am the first support of the french soccer team of Marseille.<br />
-                        I also love watching anime, reading mmangas and listening to music.
+                        I also love watching animes, reading mangas and listening to music.
                     </p>
                 </div>
 
