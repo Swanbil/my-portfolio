@@ -18,11 +18,8 @@ const About: FC<any> = () => {
                         I also love watching animes, reading mangas and listening to music.
                     </p>
                 </div>
-
             </div>
-
         </div>
-
     )
 }
 
