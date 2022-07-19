@@ -21,9 +21,9 @@ export type Category = {
 };
 
 const Skills : FC<any> = () => {
-    const [skills, setSkills] = useState<Language[]>(techStacks);
+    const [skills] = useState<Language[]>(techStacks);
     const [skillsDisplaying, setSkillsDisplaying] =  useState<Language[]>(techStacks);
-    const [categories, setCategories] = useState<Category[]>(categoriesStacks);
+    const [categories] = useState<Category[]>(categoriesStacks);
     const [categoriesIcons] = useState<any>([<FaListAlt/>,<GoBrowser/>,<FaCode/>,<MdExtension/>,<FaDatabase/>,<FaMobile/>]);
     const [selectedCategory, setSelectedCategory] = useState<Category>(categories[0]);
     let className : string;

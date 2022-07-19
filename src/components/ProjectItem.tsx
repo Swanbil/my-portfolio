@@ -20,14 +20,14 @@ const ProjectItem: FC<any> = ({ project }: ProjectProps) => {
                 <Carousel.Item>
                     <img
                         className="d-block img-slide"
-                        src={project.images[1]}
+                        src={process.env.PUBLIC_URL + project.images[1]}
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block img-slide"
-                        src={project.images[2]}
+                        src={process.env.PUBLIC_URL + project.images[2]}
                         alt="Third slide"
                     />
                 </Carousel.Item>

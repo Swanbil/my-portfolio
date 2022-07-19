@@ -10,7 +10,7 @@ const SkillItem: FC<any> = ({ skill }: LanguageProps) => {
     return (
         <div className="skill-item">
             <div className="skill-left">
-                <img src={skill.image} className="skill-img" alt="skill-image" />
+                <img src={skill.image} className="skill-img" alt="skills-language" />
             </div>
             <div className="skill-right">
                 <div className="skill-title">{skill.name}</div>
