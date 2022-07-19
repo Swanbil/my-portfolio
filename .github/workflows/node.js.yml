@@ -29,6 +29,5 @@ jobs:
 
     - name: Deploy 🚀
       run:  npm run deploy
-      with:
+      env:
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-        publish_dir: ./build
