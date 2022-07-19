@@ -43,8 +43,6 @@ const ProjectItem: FC<any> = ({ project }: ProjectProps) => {
                         )
                     })}
                 </div>
-
-
             </Card.Body>
         </Card>
     )
