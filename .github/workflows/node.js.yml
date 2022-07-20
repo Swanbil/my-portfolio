@@ -21,14 +21,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - name: Install dependencies 📥
+    - name: Build 🔧 
       run: npm install
 
-    - name: Build 🔧 
-      run:  npm run build
-
-    - name: deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./build          
+    - name: Deploy 🚀
+      run: |
+        git config --global user.name 'Swanbil'
+        git config --global user.email 'me@swanbil.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
+        npm run deploy    
