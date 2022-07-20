@@ -24,3 +24,10 @@
     font-size: 13px;
     font-style:italic;
 }
+
+@media (max-width: 550px) {
+    .nav-list{
+        flex-direction: column;
+    }
+   
+}
