@@ -5,7 +5,7 @@
         "description": "Deezer-Stats is a website where you can consult your current favorites artists, songs and albums listening on Deezer by rank. The website is dealing the Deezer api.",
         "languages": ["React", "NodeJs"],
         "link":"https://deezer-stats.herokuapp.com/",
-        "images": ["/images/deezer-stats/deezer-stats-01.PNG","/images/deezer-stats/deezer-stats-02.PNG","/images/deezer-stats/deezer-stats-03.PNG"]
+        "images": ["/images/deezer-stats/deezer-stats-01.PNG","/images/deezer-stats/deezer-stats-02.PNG","/images/deezer-stats/deezer-stats-03.PNG","/images/deezer-stats/deezer-stats-04.PNG"]
     },
     {
         "id": 1,
@@ -19,7 +19,7 @@
         "title": "Zweb",
         "description": "Zweb is my first web development project. This is a website thought for old people where families can upload videos and photos for their grandparents. The medias are automatically display as a slideshow if the user category account is an old person. They just have to go on the website to see the latest news of their families !",
         "languages": ["Php", "Javascript", "MySQL", "Html/Css"],
-        "images": ["/images/zweb/Zweb-01.PNG","/images/zweb/Zweb-02.PNG","/images/zweb/Zweb-03.PNG"]
+        "images": ["/images/zweb/Zweb-01.PNG","/images/zweb/Zweb-02.PNG","/images/zweb/Zweb-03.PNG", "/images/zweb/Zweb-04.PNG"]
     },
     {
         "id": 3,
