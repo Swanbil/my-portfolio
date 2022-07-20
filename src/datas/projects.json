@@ -19,7 +19,7 @@
         "title": "Zweb",
         "description": "Zweb is my first web development project. This is a website thought for old people where families can upload videos and photos for their grandparents. The medias are automatically display as a slideshow if the user category account is an old person. They just have to go on the website to see the latest news of their families !",
         "languages": ["Php", "Javascript", "MySQL", "Html/Css"],
-        "images": ["/images/zweb/Zweb-01.PNG","/images/zweb/Zweb-02.PNG","/images/zweb/Zweb-03.PNG", "/images/zweb/Zweb-04.PNG"]
+        "images": ["/images/zweb/zaweb-01.PNG","/images/zweb/zaweb-02.PNG","/images/zweb/zaweb-03.PNG", "/images/zweb/zaweb-04.PNG"]
     },
     {
         "id": 3,
